@@ -69,7 +69,6 @@ ax_cap.legend()
 # Row 3
 ax_prem = axes[3]
 ax_prem.grid()
-ax_prem.set_ylim(0, 2)
 
 ax_prem.step(mstr_prem.index, mstr_prem, where='post', label='MSTR premium', color='black')
 ax_prem.axhline(y=1, color='green', linestyle='dashed')
